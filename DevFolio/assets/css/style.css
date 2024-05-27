@@ -23,6 +23,10 @@ h6 {
   color: #1e1e1e;
 }
 
+p {
+  text-align: justify;
+}
+
 a {
   color: #1e1e1e;
   text-decoration: none;
@@ -756,6 +760,7 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: 0.9;
+  /* z-index: 1; */
 }
 
 .hero .hero-title {
@@ -773,6 +778,7 @@ a:hover {
 .hero .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -829,6 +835,10 @@ a:hover {
   padding-bottom: 4rem;
 }
 
+p.lead {
+  text-align: justify;
+}
+
 .about-mf .about-img {
   margin-bottom: 2rem;
 }
@@ -871,6 +881,8 @@ a:hover {
   text-align: center;
 }
 
+
+
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
@@ -904,6 +916,7 @@ a:hover {
 
 .service-box .s-description {
   color: #4e4e4e;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
